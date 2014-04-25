@@ -37,12 +37,14 @@ y_train.txt (number which identifies one of the 6 activities)<br />
 
 The script run_analysis does the following:
 
-1) Read the 6 txt files into R as datasets
-2) Bind (by rows) the two sets the two sets of  training and testing data:
-    x_train + x_test;    y_train + y_test;     s_train + s_test 
-3) Format the activities names to be lower case and give the column the name “activities”)
-4) Naming the column with values in the subjects file "subjects"
-5) Using grep, create a vector with the position of the variables which     include mean() or std() from the x_train - x_test subset
-6) Bind by columns the subjects, activities and the rest of the columns
-7) Using the number of columns from step 5, create a subset of the 30  subjects and their 6 activites and calculate their means
+1) Read the 6 txt files into R as datasets<br />
+2) Bind (by rows) the two sets the two sets of  training and testing data:<br />
+    x_train + x_test;    y_train + y_test;     s_train + s_test <br />
+3) Format the activities names to be lower case and give the column the name “activities”)<br />
+4) Naming the column with values in the subjects file "subjects"<br />
+5) Using grep, create a vector with the position of the variables which include mean() or std()<br />
+    from the x_train - x_test subset<br />
+6) Bind by columns the subjects, activities and the rest of the columns<br />
+7) Using the number of columns from step 5, create a subset of the 30  subjects and their 6 activites<br />
+   and calculate their means<br />
 8) Write a new file with that subset (MeanStd.txt)
