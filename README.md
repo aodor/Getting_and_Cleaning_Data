@@ -24,14 +24,14 @@ Files:
 
 The downloaded zip contained several files, after opening most of them and seeing their structure, these are the needed files for the assignment:
 
-activity_labels.txt (labels for the 6 activities)
-features.txt (names of the 561 variables [columns])
-subject_test.txt (number of each of the 30 subjects)
-subject_train.txt (number of each of the 30 subjects)
-X_test.txt (observations of the testing group)
-X_train.txt (observations of the training group)
-y_test.txt (number which identifies one of the 6 activities)
-y_train.txt (number which identifies one of the 6 activities)
+activity_labels.txt (labels for the 6 activities)<br />
+features.txt (names of the 561 variables [columns])<br />
+subject_test.txt (number of each of the 30 subjects)<br />
+subject_train.txt (number of each of the 30 subjects)<br />
+X_test.txt (observations of the testing group)<br />
+X_train.txt (observations of the training group)<br />
+y_test.txt (number which identifies one of the 6 activities)<br />
+y_train.txt (number which identifies one of the 6 activities)<br />
 
 
 
